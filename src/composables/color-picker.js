@@ -14,6 +14,6 @@ export const useColorPickerGame = (colorsArr) => {
 
         message.value = `You loose... [answer: ${colorsArr[randomNumber]}]`
 
-        return {colors, message, matchColor}
     }
+    return {colors, message, matchColor}
 }
